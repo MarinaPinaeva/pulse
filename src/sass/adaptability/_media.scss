@@ -42,6 +42,9 @@
 			height: 50px;
 			font-size: 15px;
 		}
+		&_submit {
+			height: 50px;
+		}
 	}
 	.promo {
 		&__header {
@@ -88,7 +91,96 @@
 			font-size: 13px;
 		}
 	}
-
+	.consultation {
+		&__descr {
+			font-size: 18px;
+		}
+	}
+	.feed-form {
+		margin-top: 34px;
+		width: 290px;
+	}
+	.carousel {
+		&__inner {
+			width: 680px;
+		}
+		.slick-prev {
+			img {
+				width: 29px;
+				height: 47px;
+			}
+		}
+		.slick-next {
+			img {
+				width: 29px;
+				height: 47px;
+			}
+		}
+	}
+	.catalog {
+		&__tab {
+			width: 210px;
+			height: 45px;
+			font-size: 17px;
+			line-height: 45px;
+		}
+	}
+	.feed {
+		&__item {
+			margin-top: 85px;
+		}
+		&__img {
+			width: 160px;
+			height: 160px;
+		}
+		&__subtitle {
+			font-size: 17px;
+		}
+		&__count {
+			font-size: 13px;
+		}
+		&__descr {
+			font-size: 15px;
+		}
+	}
+	.footer {
+		&__add {
+			margin-bottom: 35px;
+			font-size: 19px;
+			line-height: 19px;
+		}
+		&__phone {
+			font-size: 19px;
+			line-height: 19px;
+			margin-bottom: 37px;
+		}
+		&__social-item {
+			width: 45px;
+			height: 45px;
+		}
+	}
+	.modal {
+		&__close {
+			right: -39px;
+			font-size: 38px;
+			line-height: 19px;
+		}
+		&__subtitle {
+			font-size: 17px;
+		}
+		&__descr {
+			font-size: 13px;
+		}
+		label.error {
+			font-size: 15px;
+		}
+	}
+	.pageup {
+		bottom: 35px;
+		right: 35px;
+		width: 35px;
+		height: 35px;
+	}
 }
 @media (max-width: 767px) {
 	.container {
