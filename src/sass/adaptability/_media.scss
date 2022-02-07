@@ -14,6 +14,10 @@
 	.container {
 		max-width: 740px;
 		margin: 0 auto;
+		/* &__watch {
+			width: 100%;
+			max-width: none;
+		} */
 	}
 	.header {
 		&__logo {
@@ -102,7 +106,7 @@
 	}
 	.carousel {
 		&__inner {
-			width: 680px;
+			width: 100%;
 		}
 		.slick-prev {
 			img {
@@ -209,14 +213,14 @@
 			font-size: 30px;
 			line-height: 35px;
 		}
-		&__subtitle {
+		&__subheader {
 			font-size: 17px;
 			line-height: 15px;
 			margin-top: 10px;
 		}
 		&__icons {
 			margin-top: 55px;
-			width: 385px;
+			width: 380px;
 		}
 		&__link {
 			margin-top: 13px;
@@ -247,6 +251,103 @@
 			margin-top: 17px;
 		}
 	}
+	.consultation {
+		.title {
+			font-size: 25px;
+		}
+		&__descr {
+			font-size: 17px;
+		}
+	}
+	.feed-form {
+		margin-top: 34px;
+		width: 280px;
+		input {
+			height: 48px;
+			font-size: 13px;
+		}
+	}
+	.catalog {
+		.title {
+			font-size: 25px;
+		}
+		&__tabs {
+			margin-top: 65px;
+		}
+		&__tab {
+			width: 180px;
+			height: 40px;
+			font-size: 16px;
+			line-height: 40px;
+		}
+		&__content {
+			justify-content: center;
+		}
+	}
+	.feed {
+		.title {
+			font-size: 25px;
+		}
+		&__item {
+			margin-top: 75px;
+			&:nth-child(2) {
+				margin-top: 60px;
+			}
+		}
+		&__img {
+			width: 110px;
+			height: 110px;
+		}
+		&__text {
+			margin-left: 60px;
+		}
+		&__subtitle {
+			font-size: 16px;
+		}
+		&__count {
+			font-size: 12px;
+		}
+		&__descr {
+			font-size: 14px;
+			margin-top: 9px;
+		}
+	}
+	 .footer {
+		&__info {
+			width: 410px;
+			height: 250px;
+		}
+		&__addr {
+			margin-bottom: 30px;
+			font-size: 16px;
+			line-height: 16px;
+		}
+		&__phone {
+			font-size: 18px;
+			line-height: 18px;
+			margin-bottom: 35px;
+		}
+		&__social-item {
+			width: 40px;
+			height: 40px;
+			img {
+				height: 22px;
+			}
+		}
+	}
+	.pageup {
+		bottom: 30px;
+		right: 30px;
+		width: 30px;
+		height: 30px;
+	}
+	.modal {
+		&__close {
+			right: -37px;
+			font-size: 35px;
+			line-height: 20px;
+		}
+	}
 	.button {
 		&_header {
 			width: 110px;
@@ -259,6 +360,10 @@
 			height: 45px;
 			font-size: 14px;
 			border-radius: 6px;
+		}
+		&_submit {
+			height: 48px;	
+			font-size: 15px;
 		}
 	}
 
