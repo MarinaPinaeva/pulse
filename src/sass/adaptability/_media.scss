@@ -393,6 +393,7 @@
 	.promo {
 		&__wrapper {
 			margin-top: 125px;
+			margin-right: 15px;
 		}
 		&__header {
 			font-size: 6vw;
@@ -431,18 +432,109 @@
 		}
 		&__subtitle {
 			margin-top: 20px;
-			font-size: 15px;
+			font-size: 2.9vw;
 			text-align: center;
 		}
 		&__descr {
 			margin-top: 15px;
-			font-size: 4.1vw;
+			font-size: 2.5vw;
+		}
+	}
+	.consultation {
+		.title {
+			font-size: 21px;
+			margin-left: 30px;
+		}
+		&__descr {
+			font-size: 15px;
+			margin-left: 30px;
+		}
+		.feed-form {
+			margin-left: 30px;
+			width: 270px;
+			input {
+				height: 45px;
+			}
+		}
+	}
+	.catalog {
+		.title {
+			font-size: 21px;
+		}
+		&__tabs {
+			margin-top: 60px;
+		}
+		&__tab {
+			width: 150px;
+			font-size: 14px;
+			line-height: 38px;
+		}
+	}
+	.feed {
+		.title {
+			font-size: 21px;
+		}
+		&__img {
+			width: 100px;
+			height: 100px;
+			margin-left: 15px;
+		}
+		&__text {
+			margin-left: 50px;
+			padding-right: 30px;
+		}
+		&__subtitle {
+			font-size: 15px;
+		}
+		&__descr {
+			font-size: 13px;
+		}
+	}
+	.footer {
+		height: 580px;
+		&__info {
+			width: 330px;
+			height: 235px;
+		}
+		&__addr {
+			font-size: 2.08vw;
+			line-height: 10px;
+		}
+		&__phone {
+			font-size: 2.6vw;
+			line-height: 10px;
+		}
+		&__social-item {
+			width: 35px;
+			height: 35px;
+			img {
+				height: 17px;
+			}
+		}
+	}
+	.pageup {
+		bottom: 25px;
+		right: 25px;
+		height: 25px;
+		width: 25px;
+	}
+	.feed-form {
+		&_mt25 {
+			margin-left: 12px;
+			margin-top: 20px;
+		}
+	}
+	.modal {
+		&__close {
+			right: -35px;
+			font-size: 33px;
+			line-height: 24px;
 		}
 	}
 	.button {
 		&_header {
 			width: 24.3vw;
-			height: 7vh;
+			height: 5vh;
 			font-size: 1.9vw;
 			border-radius: 4px;
 			margin-top: 0.5px;
@@ -450,9 +542,12 @@
 		&_main {
 			margin-top: 55px;
 			width: 43vw;
-			height: 12vh;
+			height: 9vh;
 			font-size: 2.8vw;
 			border-radius: 5px;
+		}
+		&_submit {
+			height: 45px;
 		}
 	}
 }
