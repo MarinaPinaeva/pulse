@@ -259,6 +259,12 @@
 			font-size: 17px;
 		}
 	}
+	.carousel {
+		&__inner {
+			max-width: 500px;
+			width: 100%;
+		}
+	}
 	.feed-form {
 		margin-top: 34px;
 		width: 280px;
