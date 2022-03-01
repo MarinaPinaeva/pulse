@@ -108,16 +108,9 @@
 		&__inner {
 			width: 100%;
 		}
-		.slick-prev {
+		.slick-prev, .slick-next {
 			img {
-				width: 29px;
-				height: 47px;
-			}
-		}
-		.slick-next {
-			img {
-				width: 29px;
-				height: 47px;
+				display: none;
 			}
 		}
 	}
@@ -376,7 +369,7 @@
 }
 @media (max-width: 575px) {
 	.container {
-		max-width: none;
+		max-width: 100%;
 		margin: 0 10px;
 	}
 	.header {
@@ -436,27 +429,31 @@
 			margin-top: 35px;
 			display: block;
 		}
+		&__item {
+			margin: 0 auto;
+			transform: none;
+		}
 		&__subtitle {
 			margin-top: 20px;
-			font-size: 2.9vw;
+			font-size: 15px;
 			text-align: center;
 		}
 		&__descr {
 			margin-top: 15px;
-			font-size: 2.5vw;
+			font-size: 11px;
 		}
 	}
 	.consultation {
 		.title {
-			font-size: 21px;
-			margin-left: 30px;
+			font-size: 20px;
+			margin: 0 20px;
 		}
 		&__descr {
 			font-size: 15px;
-			margin-left: 30px;
+			margin: 20px;
 		}
 		.feed-form {
-			margin-left: 30px;
+			margin: 0 20px;
 			width: 270px;
 			input {
 				height: 45px;
@@ -469,28 +466,46 @@
 		}
 		&__tabs {
 			margin-top: 60px;
+			display: grid;
+			grid-template-columns: 300px;
+			grid-template-rows: repeat(3, 50px);
+			row-gap: 5px;
+			justify-content: center;
 		}
 		&__tab {
-			width: 150px;
-			font-size: 14px;
+			width: 280px;
+			font-size: 15px;
 			line-height: 38px;
+			&__320 {
+				line-height: 35px;
+			}
 		}
 	}
 	.feed {
 		.title {
 			font-size: 21px;
 		}
+		&__item {
+			display: grid;
+			grid-template-columns: 100%;
+			grid-template-rows: 100px 300px;
+			row-gap: 20px;
+		}
 		&__img {
 			width: 100px;
 			height: 100px;
-			margin-left: 15px;
+			margin: 0 auto;
 		}
 		&__text {
-			margin-left: 50px;
-			padding-right: 30px;
+			padding: 0 20px;
+			margin-left: 0;
 		}
 		&__subtitle {
 			font-size: 15px;
+			text-align: center;
+		}
+		&__count {
+			text-align: center;
 		}
 		&__descr {
 			font-size: 13px;
@@ -499,7 +514,7 @@
 	.footer {
 		height: 580px;
 		&__info {
-			width: 330px;
+			width: 320px;
 			height: 235px;
 		}
 		&__addr {
@@ -540,16 +555,16 @@
 	.button {
 		&_header {
 			width: 24.3vw;
-			height: 5vh;
-			font-size: 1.9vw;
+			height: 2.7vh;
+			font-size: 1.8vw;
 			border-radius: 4px;
 			margin-top: 0.5px;
 		}
 		&_main {
 			margin-top: 55px;
 			width: 43vw;
-			height: 9vh;
-			font-size: 2.8vw;
+			height: 5vh;
+			font-size: 2.5vw;
 			border-radius: 5px;
 		}
 		&_submit {
